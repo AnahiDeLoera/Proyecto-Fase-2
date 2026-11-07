@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asistente IA</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Asistente IA</h1>
+    <p>Hecho con GitHub Copilot, Microsoft Foundry y Azure App Service.</p>
+  </header>
+  <main class="chat" aria-live="polite">
+    <div id="messages" class="messages">
+      <div class="msg bot">¡Hola! Soy un asistente de IA de Distribuidora Río Claro. ¿En qué te ayudo hoy?</div>
+    </div>
+    <form id="chat-form" class="composer">
+      <input id="input" type="text" maxlength="2000"
+             placeholder="Escribe tu pregunta…" autocomplete="off" required>
+      <button id="send" type="submit">Enviar</button>
+    </form>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
